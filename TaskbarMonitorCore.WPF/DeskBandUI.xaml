@@ -1,0 +1,20 @@
+﻿<UserControl x:Class="TaskbarMonitorCore.WPF.DeskBandUI"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:TaskbarMonitorCore.WPF"
+             xmlns:Controls="clr-namespace:TaskbarMonitorCore.WPF.Controls"
+             Background="Transparent">
+    <Grid Width="Auto" Height="40">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto"></ColumnDefinition>
+            <ColumnDefinition Width="auto"></ColumnDefinition>
+            <ColumnDefinition Width="auto"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <!--<Controls:Graph Grid.Column="0" />-->
+        <Controls:NumericCounter Title="NET" Value="100KBs" />
+        <TextBlock Text="Test" Margin="10,0,10,0" HorizontalAlignment="Left" Grid.Column="1" VerticalAlignment="Center" Foreground="#FF949494"/>
+        <Button Width="40" Grid.Column="2">Test</Button>
+    </Grid>
+</UserControl>

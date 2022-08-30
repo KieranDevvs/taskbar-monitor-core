@@ -1,0 +1,21 @@
+﻿<UserControl x:Class="TaskbarMonitorCore.WPF.Controls.AlternativeGraph"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:TaskbarMonitorCore.WPF.Controls"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <ItemsControl Name="DataPoints">
+        <ItemsControl.ItemsPanel>
+            <ItemsPanelTemplate>
+                <StackPanel x:Name="GraphStackPanel" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Bottom"  Margin="20"/>
+            </ItemsPanelTemplate>
+        </ItemsControl.ItemsPanel>
+        <ItemsControl.ItemTemplate>
+            <DataTemplate>
+                <Rectangle VerticalAlignment="Bottom" Width="1" Height="{Binding Value}" Fill="#1B568C"/>
+            </DataTemplate>
+        </ItemsControl.ItemTemplate>
+    </ItemsControl>
+</UserControl>

@@ -1,0 +1,21 @@
+﻿<UserControl x:Class="TaskbarMonitorCore.WPF.Controls.NumericCounter"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:TaskbarMonitorCore.WPF.Controls"
+             Name="root">
+    
+    <StackPanel Height="Auto">
+        <TextBlock x:Name="_title" Text="{Binding Title, ElementName=root}" Foreground="White" HorizontalAlignment="Center">
+            <TextBlock.Effect>
+                <DropShadowEffect ShadowDepth="4" Direction="330" Color="Black" Opacity="0.5" BlurRadius="4"/>
+            </TextBlock.Effect>
+        </TextBlock>
+        <TextBlock Text="{Binding Value, ElementName=root}" Foreground="White" HorizontalAlignment="Center">
+            <TextBlock.Effect>
+                <DropShadowEffect ShadowDepth="4" Direction="330" Color="Black" Opacity="0.5" BlurRadius="4"/>
+            </TextBlock.Effect>
+        </TextBlock>
+    </StackPanel>
+</UserControl>

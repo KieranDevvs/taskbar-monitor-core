@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32819.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskbarMonitorCore", "TaskbarMonitorCore\TaskbarMonitorCore.csproj", "{D9EA6073-BA55-41CD-91BC-35F59A3335F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskbarMonitorInstallerCore", "TaskbarMonitorInstallerCore\TaskbarMonitorInstallerCore.csproj", "{7AAD1DB9-30D9-41A8-9992-65BE447C27A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskbarMonitorCore.WPF", "TaskbarMonitorCore.WPF\TaskbarMonitorCore.WPF.csproj", "{8E404971-29D8-474C-A74F-8CB99EADF0CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfRenderTest", "WpfRenderTest\WpfRenderTest.csproj", "{81EC7745-01EC-4E1A-912C-42FC0D25A407}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsApiLibrary", "WindowsApiLibrary\WindowsApiLibrary.csproj", "{95530762-C27D-4DB7-B7CB-721E80B4AD4E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D9EA6073-BA55-41CD-91BC-35F59A3335F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9EA6073-BA55-41CD-91BC-35F59A3335F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9EA6073-BA55-41CD-91BC-35F59A3335F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9EA6073-BA55-41CD-91BC-35F59A3335F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AAD1DB9-30D9-41A8-9992-65BE447C27A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AAD1DB9-30D9-41A8-9992-65BE447C27A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AAD1DB9-30D9-41A8-9992-65BE447C27A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AAD1DB9-30D9-41A8-9992-65BE447C27A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E404971-29D8-474C-A74F-8CB99EADF0CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E404971-29D8-474C-A74F-8CB99EADF0CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E404971-29D8-474C-A74F-8CB99EADF0CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E404971-29D8-474C-A74F-8CB99EADF0CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81EC7745-01EC-4E1A-912C-42FC0D25A407}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81EC7745-01EC-4E1A-912C-42FC0D25A407}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81EC7745-01EC-4E1A-912C-42FC0D25A407}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81EC7745-01EC-4E1A-912C-42FC0D25A407}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95530762-C27D-4DB7-B7CB-721E80B4AD4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95530762-C27D-4DB7-B7CB-721E80B4AD4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95530762-C27D-4DB7-B7CB-721E80B4AD4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95530762-C27D-4DB7-B7CB-721E80B4AD4E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8E682CC4-AA16-4D9A-B5AE-F1BBBD5D2481}
+	EndGlobalSection
+EndGlobal
