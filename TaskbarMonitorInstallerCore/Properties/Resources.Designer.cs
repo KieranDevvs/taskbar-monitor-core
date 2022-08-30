@@ -91,36 +91,6 @@ namespace TaskbarMonitorInstallerCore.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Byte[].
-        /// </summary>
-        internal static byte[] TaskbarMonitorCore_WPF {
-            get {
-                object obj = ResourceManager.GetObject("TaskbarMonitorCore_WPF", resourceCulture);
-                return ((byte[])(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Byte[].
-        /// </summary>
-        internal static byte[] TaskbarMonitorCore_WPF_comhost {
-            get {
-                object obj = ResourceManager.GetObject("TaskbarMonitorCore_WPF_comhost", resourceCulture);
-                return ((byte[])(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Byte[].
-        /// </summary>
-        internal static byte[] TaskbarMonitorCore_WPF_runtimeconfig {
-            get {
-                object obj = ResourceManager.GetObject("TaskbarMonitorCore_WPF_runtimeconfig", resourceCulture);
-                return ((byte[])(obj));
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to 1.
         /// </summary>
         internal static string test {
