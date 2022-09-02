@@ -13,3 +13,15 @@ Effort has gone into refactoring bits and pieces, when installing the app, we no
 - I managed to get trimming to work (it got the installer assembly down to about 12MB with all the runtime assemblies), but it was very brittle and im not sure if it was   worth the extra effort so I gave up.
 
 ![image](https://user-images.githubusercontent.com/21192520/187538343-294b0399-9ed7-4621-a440-062a99c37ce6.png)
+
+# Build
+
+1) Open the solution
+2) Switch to release configuration
+3) Build the project `TaskbarMonitorCore` first
+4) Then build the project `TaskbarMonitorInstallerCore` next
+5) Run the EXE to install the Deskband (will need to manually activate the toolbar by right clicking the Taskbar -> Toolbars)
+
+# Uninstall
+
+Uninstall as you would a regular application via `Apps & Features`.
