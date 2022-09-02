@@ -127,7 +127,7 @@
   <data name="TaskbarMonitorCore_runtimeconfig" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\..\TaskbarMonitorCore\bin\release\net6.0-windows\TaskbarMonitorCore.runtimeconfig.json;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="test" xml:space="preserve">
-    <value>1</value>
+  <data name="WindowsApiLibrary" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\WindowsApiLibrary\bin\release\net6.0-windows\WindowsApiLibrary.dll;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>

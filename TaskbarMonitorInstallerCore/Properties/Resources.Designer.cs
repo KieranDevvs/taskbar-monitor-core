@@ -98,5 +98,15 @@ namespace TaskbarMonitorInstallerCore.Properties {
                 return ResourceManager.GetString("test", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] WindowsApiLibrary {
+            get {
+                object obj = ResourceManager.GetObject("WindowsApiLibrary", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
     }
 }

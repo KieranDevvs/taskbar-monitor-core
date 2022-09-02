@@ -18,6 +18,7 @@ public class Program
             { "TaskbarMonitorCore.comhost.dll", Properties.Resources.TaskbarMonitorCore_comhost },
             { "TaskbarMonitorCore.dll", Properties.Resources.TaskbarMonitorCore },
             { "TaskbarMonitorCore.runtimeconfig.json", Properties.Resources.TaskbarMonitorCore_runtimeconfig },
+            { "WindowsApiLibrary.dll", Properties.Resources.WindowsApiLibrary }
         };
 
         var filesToRegister = new List<string> { "TaskbarMonitorCore.comhost.dll" };
