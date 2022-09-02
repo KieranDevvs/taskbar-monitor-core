@@ -19,7 +19,7 @@ Effort has gone into refactoring bits and pieces, when installing the app, we no
 1) Open the solution
 2) Switch to release configuration
 3) Build the project `TaskbarMonitorInstallerCore` (it will also build all the dependant projects)
-5) Run the EXE to install the Deskband (will need to manually activate the toolbar by right clicking the Taskbar -> Toolbars)
+4) Run the EXE to install the Deskband (will need to manually activate the toolbar by right clicking the Taskbar -> Toolbars)
 
 # Uninstall
 
